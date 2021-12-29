@@ -36,13 +36,19 @@
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
+            <a href="index.html"><button type="button" class="btn btn-primary">Home</button></a>
           </li>
           <li class="nav-item">
-            <a href="cart.html" class="nav-link">Cart<sup><img src="assets/warning.svg" width="18px"></sup></a>
+            <a href="cart.html"><button type="button" class="btn btn-primary position-relative">
+              Cart  
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                3
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </button></a>
           </li>
           <li class="nav-item">
-            <a href="signin.html" class="nav-link">Profile</a>
+            <a href="signin.html"><button type="button" class="btn btn-primary">Profile</button></a>
           </li>
         </ul>
       </div>
@@ -103,8 +109,8 @@
       <br>
       <button type="button" class="btn btn-outline-primary buttons">Cancel</button>
 
-      <br>    
-    
+      <br>
+
       <br>
 
       <footer class="p-3 bg-primary text-white text-center position-relative footer">
