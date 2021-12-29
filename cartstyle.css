@@ -39,3 +39,8 @@
 .arrow:hover{
     opacity: 100%;
 }
+
+.buttons{
+    margin:0 auto;
+    display:block;
+}
