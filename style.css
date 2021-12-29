@@ -1,0 +1,34 @@
+*{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-item > img {
+    margin-top: 55px;
+    object-fit: cover;
+    height: calc(100vh - 55px);
+    width: 100%;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.social{
+    padding-inline: 5px;
+    opacity: 50%;
+}
+
+.social:hover{
+    opacity: 100%;
+}
+
+.arrow{
+    opacity: 50%;
+}
+
+.arrow:hover{
+    opacity: 100%;
+}

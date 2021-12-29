@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <title>CAL'S Home</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark py-3 fixed-top grid-item-1">
+    <div class="container">
+      <a href="index.html" class="navbar-brand" style="font-family: 'Bungee';">CAL'S</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navmenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="cart.html" class="nav-link">Cart<sup><img src="assets/warning.svg" width="18px"></sup></a>
+          </li>
+          <li class="nav-item">
+            <a href="signin.html" class="nav-link">Profile</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+      <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/CAL's.jpg" class="d-block w-100" alt="logo">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/airfreshner.jpg" class="d-block w-100" alt="airfreshner">
+            <div class="carousel-caption d-md-block">
+              <h4 style="color: white ;text-shadow: 0 0 5px black">Febreze Air Freshener</h4>
+              <h5 style="color: white;text-shadow: 0 0 5px black">₹339.00</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/wallet.jpg" class="d-block w-100" alt="wallet">
+            <div class="carousel-caption d-md-block">
+              <h4 style="color: white;text-shadow: 0 0 5px black">Leather Bifold Wallet</h4>
+              <h5 style="color: white;text-shadow: 0 0 5px black">₹5,799.00</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/speakers.jpg" class="d-block w-100" alt="speakers">
+            <div class="carousel-caption d-md-block">
+              <h4 style="color: white;text-shadow: 0 0 5px black">Ultimate Ears Wonderboom 2</h4>
+              <h5 style="color: white;text-shadow: 0 0 5px black">₹4,495.00</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/glasses.jpg" class="d-block w-100" alt="glasses">
+            <div class="carousel-caption d-md-block">
+              <h4 style="color: white;text-shadow: 0 0 5px black">Wayfarer</h4>
+              <h5 style="color: white;text-shadow: 0 0 5px black">₹9,590.00</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/sneakers.jpg" class="d-block w-100" alt="sneakers">
+            <div class="carousel-caption d-md-block">
+              <h4 style="color: white;text-shadow: 0 0 5px black">Ralph Sampson Sneakers</h4>
+              <h5 style="color: white;text-shadow: 0 0 5px black">₹3,499.00</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/headphones.jpg" class="d-block w-100" alt="headphones">
+            <div class="carousel-caption d-md-block">
+              <h4 style="color: white;text-shadow: 0 0 5px black">Nirvanaa 1007ANC</h4>
+              <h5 style="color: white;text-shadow: 0 0 5px black">₹9,999.00</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <br>
+      
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card border-info">
+            <img src="assets/airfreshner.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Febreze Air Freshener</h5>
+              <p class="card-text">₹339.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-info">
+            <img src="assets/wallet.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Leather Bifold Wallet</h5>
+              <p class="card-text">₹5,799.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-info">
+            <img src="assets/speakers.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ultimate Ears Wonderboom 2</h5>
+              <p class="card-text">₹4,495.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card border-info">
+            <img src="assets/glasses.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Wayfarer</h5>
+              <p class="card-text">₹9,590.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-info">
+            <img src="assets/sneakers.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ralph Sampson Sneakers</h5>
+              <p class="card-text">₹3,499.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-info">
+            <img src="assets/headphones.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nirvanaa 1007ANC</h5>
+              <p class="card-text">₹9,999.00</p>
+            </div>
+          </div>
+        </div>
+      </div>  
+      
+      <br>
+
+      <footer class="p-3 bg-primary text-white text-center position-relative">
+        <div class="container">
+          <p class="lead">Copyright &copy; 2021 <span style="font-family: 'Bungee'; font-size: 17px;">CAL'S</span></p>
+          <div class="landing-images">
+            <a href="#"><img src="assets/instagram.svg" alt="Instagram" class="social"></a>
+            <a href="#"><img src="assets/twitter.svg" alt=":twiiter" class="social"></a>
+            <a href="#"><img src="assets/facebook.svg" alt="facebook" class="social"></a>
+        </div>
+  
+          <a href="#" class="position-absolute bottom-0 end-0 p-4 arrow" style="color: white;">
+            <i class="bi bi-arrow-up-circle h1"></i>
+          </a>
+        </div>
+      </footer>
+
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="profilestyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <title>Sign In</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark py-3 fixed-top grid-item-1">
+        <div class="container">
+          <a href="index.html" class="navbar-brand" style="font-family: 'Bungee';">CAL'S</a>
+  
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="cart.html" class="nav-link">Cart<sup><img src="assets/warning.svg" width="18px"></sup></a>
+              </li>
+              <li class="nav-item">
+                <a href="signin.html" class="nav-link">Profile</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <form action = "" class="form">
+        <span class = "grid">
+        <span class = "flex-box">
+            <img src="assets/profile.svg" width="180px" alt="logo" class="img" style="padding: 10px; margin: 10px;">
+            <span><input type = "email" placeholder = "email@address.com" /></span>
+            <br>
+            <span><input type = "password" placeholder = "•••••••"/></span>
+            <br>
+            <button type="submit" class="btn btn-outline-primary" formaction="signin.html" style="padding-inline: 10px; border-radius: 30px; padding-top: 0px; padding-bottom: 2px; margin: 10px;">Sign In</button>
+            <span>Don't have an account?<button type="submit" class="btn btn-outline-primary" formaction="signup.html" style="padding-inline: 10px; border-radius: 30px; padding-top: 0px; padding-bottom: 2px; margin: 10px;">Sign Up</button></span>
+        </span>
+        </span>
+    </form>
+
+    <footer class="p-3 bg-primary text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021 <span style="font-family: 'Bungee'; font-size: 17px;">CAL'S</span></p>
+        <div class="landing-images">
+          <a href="#"><img src="assets/instagram.svg" alt="Instagram" class="social"></a>
+          <a href="#"><img src="assets/twitter.svg" alt=":twiiter" class="social"></a>
+          <a href="#"><img src="assets/facebook.svg" alt="facebook" class="social"></a>
+      </div>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-4 arrow" style="color: white;">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
