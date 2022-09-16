@@ -1,4 +1,3 @@
-# MRM TASK-PHASE PROJECT 3
-Name: Siddharth Mittal
-<br>
-Website Link: https://caligo-phantom.github.io/task-phase-project-3/
+# Store Page
+Made with :heart: by Siddharth Mittal
+Hosted @ https://caligo-phantom.github.io/store-page/
